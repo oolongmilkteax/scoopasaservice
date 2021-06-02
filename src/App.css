@@ -1,8 +1,12 @@
 .App {
     display: flex;
     flex-direction: row;
+    font-family: Avenir;
+    height: 1460px;
 }
 
 .content {
+    display: flex;
+    flex-direction: row;
     width: 100%;
 }

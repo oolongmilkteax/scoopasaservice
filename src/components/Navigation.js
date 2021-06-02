@@ -17,22 +17,22 @@ function Navigation() {
                 </div>
                 <ul className= {clicked ? "nav-menu active" : "nav-menu"}>
                    <li>
-                        <span className = {menu=="inbox" ? "nav-links active" : "nav-links"} onClick={() => setMenu("inbox")}>
+                        <span className = {menu=="inbox" ? "nav-links active" : "nav-links"} onClick={() => menu=="inbox" ? setMenu("none") : setMenu("inbox")}>
                             <i class = "fas fa-inbox"></i> Inbox 
                         </span>
                     </li>
                     <li>
-                        <span className = {menu=="resources" ? "nav-links active" : "nav-links"} onClick={() => setMenu("resources")}>
+                        <span className = {menu=="resources" ? "nav-links active" : "nav-links"} onClick={() => menu == "resources" ? setMenu("none") : setMenu("resources")}>
                             <i class = "far fa-star"></i> Resources
                         </span>
                     </li>
                     <li>
-                        <span className = {menu=="testcases" ? "nav-links active" : "nav-links"} onClick={() => setMenu("testcases")}>
+                        <span className = {menu=="testcases" ? "nav-links active" : "nav-links"} onClick={() => menu == "testcases" ? setMenu("none") : setMenu("testcases")}>
                             <i class = "far fa-list-alt"></i> Test Cases
                         </span>
                     </li>
                     <li>
-                        <span className = {menu=="deployment" ? "nav-links active" : "nav-links"} onClick={() => setMenu("deployment")}>
+                        <span className = {menu=="deployment" ? "nav-links active" : "nav-links"} onClick={() => menu == "deployment" ? setMenu("none") : setMenu("deployment")}>
                             <i class="fas fa-rocket"></i>Deployment</span>
                     </li>
                 </ul>
