@@ -1,0 +1,31 @@
+.mainmenu {
+    font-size: 18px;
+    text-align: center;
+    color: #4F4F4F;
+    font-weight: 200;
+    justify-content: center;
+    background: #F2F2F2;
+    height: 100%;
+    width: 100%;
+}
+
+.tobar {
+    width: 500px;
+}
+
+.mainheader {
+    width: 100%;
+    background: #E0E0E0;
+    padding: 10px;
+    height: 30px;
+    justify-content: center;
+}
+
+.maintext {
+    font-size: 36px;
+}
+
+.maincontent {
+    padding-top: 100px;
+}
+

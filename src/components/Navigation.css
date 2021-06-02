@@ -1,0 +1,87 @@
+.Navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.SideNavigation {
+    background: #4F4F4F;
+    width: 40px;
+    height: 1440px;
+    display: flex;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 500;
+    justify-content: center;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+
+.SideNavigation.active {
+    width: 122px;
+    justify-content: flex-end;
+    padding-right: 15px;
+    transition: all 0.5s ease;
+}
+
+.secondaryNavigation {
+    left: -200%;
+}
+
+.secondaryNavigation.active {
+    
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+.nav-menu {
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: absolute;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    list-style-type: none;
+    text-align: left;
+    line-height: 30px;
+    font-size: 0.8rem;
+}
+
+.nav-menu.active {
+    top: 30px;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.nav-links {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.nav-links.active {
+    color: #6FCF97;
+}
+
+.nav-links:hover {
+    cursor: pointer;
+}
+
+.fa-inbox {
+    margin-right: 3px;
+}
+
+.fa-rocket {
+    margin-right: 6px;
+}
+.fa-star {
+    margin-right: 3px;
+}
+
+.fa-list-alt {
+    margin-right: 3px;
+}
